@@ -1,0 +1,234 @@
+/* <-------DESKTOP DEVICES-----------> */
+@media (max-width: 1200px) {
+  .w3-top {
+    background-color: #00b0f7;
+    padding: 0.3rem 1.3rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .w3-top #menu-btn {
+    display: none;
+    visibility: hidden;
+  }
+  #ghs .sidebar {
+    display: none;
+    visibility: hidden;
+  }
+  .mobile .sidebar {
+    display: none;
+    visibility: hidden;
+  }
+  .w3-top .nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .w3-top .logo {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  .w3-top .nav input {
+    width: 50%;
+  }
+  .w3-top .nav input {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 0 1rem;
+  }
+  .w3-top .nav #search-btn {
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+  }
+  .login_area {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5rem 0.8rem;
+  }
+  .login_area input {
+    width: 50%;
+    margin: 0.7rem 5rem;
+    padding: 0.8rem 0.8rem;
+  }
+  .editbox {
+    width: 50%;
+    margin:  25%;
+  }
+}
+/* <-------LAPTOP OR TABLET DEVICES-----------> */
+@media (max-width: 900px) {
+  .w3-top button {
+    display: block;
+    visibility: visible;
+  }
+  .w3-top .nav #search-btn {
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+  }
+  #ghs,
+  .mobile {
+    display: none;
+    visibility: hidden;
+  }
+  .login_area {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.5rem 0.8rem;
+  }
+  .login_area input {
+    width: 60%;
+    margin: 0.7rem 2rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .editbox {
+    width: 55%;
+    margin: 22%;
+  }
+}
+/* <-------MOBILE DEVICES-----------> */
+@media (max-width: 400px) {
+  .w3-top button {
+    display: block;
+    visibility: visible;
+  }
+  #ghs .sidebar {
+    display: block;
+    visibility: visible;
+  }
+  .mobile {
+    display: block;
+    visibility: visible;
+    transform: translate(0) scale(0);
+    animation: menu 0.3s forward;
+  }
+  .w3-top {
+    background-color: #00b0f7;
+    padding: 0.3rem 1.3rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav a i,
+  #search,
+  #search-btn i {
+    display: none;
+    visibility: hidden;
+  }
+  .w3-top #menu-btn {
+    display: block;
+    visibility: visible;
+  }
+  .w3-top #menu-btn i {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.8rem;
+  }
+  .w3-top .logo {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-right: 20%;
+  }
+
+  #nav {
+    display: block;
+  }
+  .sidebar {
+    background: #ffffff;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    z-index: 999;
+    transform: translate(0) scale(1);
+  animation: editbox ease-in 0.5s;
+  }
+  .sidebar li {
+    list-style: none;
+    display: flex;
+    margin: 0.8rem 0;
+  }
+  .sidebar li a {
+    width: 70%;
+    text-decoration: none;
+    color: #003f61;
+    font-weight: bolder;
+    margin: 0.5rem 0px;
+  }
+  .sidebar li a i {
+    margin: 0 1rem;
+    font-size: 20px;
+    color: #00b0f7;
+    font-weight: bolder;
+  }
+  .sidebar li a:hover {
+    width: 80%;
+    padding: 0.5rem 0;
+    border-radius: 15px;
+    background: #efefef;
+  }
+  .search input {
+    border: none;
+    outline: none;
+    background: #efefef;
+    border-radius: 20px;
+    padding: 0.5rem 0.9rem;
+  }
+  .search #-btn {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #0078b9;
+    padding: 0.3rem 0.6rem;
+    background: #efefef;
+    border-radius: 40px;
+  }
+  .login_area {
+    top: 2rem;
+    width: 95%;
+    margin: 0 auto;
+    padding: 5.5rem 0.8rem;
+  }
+  .login_area input {
+    width: 70%;
+    margin: 0.7rem 2rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .middle {
+    width: 95%;
+  }
+  .editbox {
+    width: 95%;
+    margin: 22% 2%;
+  }
+}
+
+@keyframes menu {
+  40% {
+    transform: translate(0) scale(0);
+  }
+  60% {
+    transform: translate(0) scale(6);
+  }
+  80% {
+    transform: translate(0) scale(0);
+  }
+  100% {
+    transform: translate(0) scale(3);
+  }
+}

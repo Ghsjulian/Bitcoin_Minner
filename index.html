@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web World</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/w3.css" />
+    <link rel="stylesheet" href="assets/css/w3-theme-blue-grey.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?bimily=Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="w3-theme-l5">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <span class="logo">Web World</span>
+      <div class="nav w3-bar w3-center-align w3-large">
+        <a href="#" class=""><i class="bi bi-house-door"></i></a>
+        <a href="#" class="" title="News"><i class="bi bi-bell"></i></a>
+        <a href="#" class="" title="Account Settings"
+          ><i class="bi bi-person-circle"></i
+        ></a>
+        <a href="#" class="" title="Messages"><i class="bi bi-chat"></i></a>
+        <input type="search" placeholder="Search..." id="search" />
+        <button id="search-btn" type="search">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+      <span id="menu-btn" class="" href="javascript:void(0);">
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </span>
+    </div>
+    <!--- Nav Bar Finished ---->
+
+    <div id="ghs" data="0">
+      <div
+        class="w3-container w3-content"
+        style="max-width: 100%; margin-top: 50px"
+      >
+        <div class="w3-row">
+          <!-- Left Column -->
+          <div class="w3-col m3">
+            <div id="side-bar" class="w3-card w3-round w3-white">
+              <div class="w3-container">
+                <div class="sidebar">
+                  <li class="search">
+                    <input type="search" placeholder="Search..." />
+                    <button id="-btn" type="search">
+                      <i class="bi bi-search"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="bi bi-person-circle"></i> Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="bi bi-house-door"></i> Home </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="bi bi-bell"></i> Notification </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="bi bi-chat"></i> Messages </a>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- SIDE BAR FINISHED -->
+    <div style="display: none" class="w3-center editbox">
+      <h4 class="h4">Edit Profile</h4>
+      <i class="bi bi-x"></i>
+      <label for="avtar">
+        <i class="bi bi-camera"></i>
+      </label>
+      <input style="display: none" type="file" id="avtar" />
+      <input type="text" id="name" value="Ghs Julian" />
+      <input type="email" id="name" value="ghsjulian@gmail.com" />
+      <input type="text" id="name" value="+8805543516543" />
+   <button type="submit" id="update_btn">Update</button>
+    </div>
+    <div
+      class="w3-container w3-content"
+      style="max-width: 1400px; margin-top: 80px"
+    >
+      <!-- The Grid -->
+      <div class="w3-row">
+        <!-- Left Column -->
+        <div class="w3-col m3">
+          <!-- Profile -->
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-center">
+              <div class="w3-center head">
+                <h4 class="h4">User Profile</h4>
+                <div class="profile">
+                  <img
+                    src="/assets/img/green_logo.png"
+                    alt="Forest"
+                    style="width: 50%"
+                  />
+                  <div class="w3-left left">
+                    <li>Name : Ghs Julian</li>
+                    <li>Email : ghsjulian@gmail.com</li>
+                    <li>Phone : +88046377465</li>
+                    <li>Address : Rongpur , IT-543</li>
+                    <center>
+                      <button id="button"><a href="#">Edit Profile</a></button>
+                    </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <!-- Accordion -->
+          <div class="ndsection w3-card w3-round w3-white">
+            <div class="w3-white">
+              <h4 class="h4">Our Opinion</h4>
+              <p>
+                Our Service And Technology Updating Day By Day . So That Our
+                Users Can Get Service Properly .
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="ndsection w3-card w3-round w3-white">
+            <div class="w3-white">
+              <h4 class="h4">Our Opinion</h4>
+              <p>
+                Our Service And Technology Updating Day By Day . So That Our
+                Users Can Get Service Properly .
+              </p>
+            </div>
+          </div>
+          <br />
+
+          <!-- Interests -->
+          <div class="w3-card w3-round w3-white w3-hide-small">
+            <div class="w3-container">
+              <p>Interests</p>
+              <p>
+                <span class="w3-tag w3-small w3-theme-d5">News</span>
+                <span class="w3-tag w3-small w3-theme-d4">W3Schools</span>
+                <span class="w3-tag w3-small w3-theme-d3">Labels</span>
+                <span class="w3-tag w3-small w3-theme-d2">Games</span>
+                <span class="w3-tag w3-small w3-theme-d1">Friends</span>
+                <span class="w3-tag w3-small w3-theme">Games</span>
+                <span class="w3-tag w3-small w3-theme-l1">Friends</span>
+                <span class="w3-tag w3-small w3-theme-l2">Food</span>
+                <span class="w3-tag w3-small w3-theme-l3">Design</span>
+                <span class="w3-tag w3-small w3-theme-l4">Art</span>
+                <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+              </p>
+            </div>
+          </div>
+          <br />
+
+          <!-- Alert Box -->
+          <div
+            class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small"
+          >
+            <span
+              onclick="this.parentElement.style.display='none'"
+              class="w3-button w3-theme-l3 w3-display-topright"
+            >
+              <i class="bi bi-remove"></i>
+            </span>
+            <p><strong>Hey!</strong></p>
+            <p>People are looking at your profile. Find out who.</p>
+          </div>
+
+          <!-- End Left Column -->
+        </div>
+        <!-- Middle Column -->
+        <div class="w3-col m6 middle">
+          <div class="w3-row-padding">
+            <div class="w3-col m12">
+              <div class="w3-card w3-round w3-white">
+                <div class="w3-container w3-padding">
+                  <h2 class="w3-opacity">Our Services</h2>
+                  <p contenteditable="true" class="w3-border w3-padding">
+                    Status: Feeling Awesome
+                  </p>
+                  <button type="button" class="w3-button w3-theme">
+                    <i class="bi bi-pencil"></i> Post
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br />
+            <img
+              src="/w3images/avatar2.png"
+              alt="Avatar"
+              class="w3-left w3-circle w3-margin-right"
+              style="width: 60px"
+            />
+            <span class="w3-right w3-opacity">1 min</span>
+            <h4>John Doe</h4>
+            <br />
+            <hr class="w3-clear" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="w3-row-padding" style="margin: 0 -16px">
+              <div class="w3-half">
+                <img
+                  src="/w3images/lights.jpg"
+                  style="width: 100%"
+                  alt="Northern Lights"
+                  class="w3-margin-bottom"
+                />
+              </div>
+              <div class="w3-half">
+                <img
+                  src="/w3images/nature.jpg"
+                  style="width: 100%"
+                  alt="Nature"
+                  class="w3-margin-bottom"
+                />
+              </div>
+            </div>
+            <button
+              type="button"
+              class="w3-button w3-theme-d1 w3-margin-bottom"
+            >
+              <i class="bi bi-thumbs-up"></i>  Like
+            </button>
+            <button
+              type="button"
+              class="w3-button w3-theme-d2 w3-margin-bottom"
+            >
+              <i class="bi bi-comment"></i>  Comment
+            </button>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br />
+            <img
+              src="/w3images/avatar5.png"
+              alt="Avatar"
+              class="w3-left w3-circle w3-margin-right"
+              style="width: 60px"
+            />
+            <span class="w3-right w3-opacity">16 min</span>
+            <h4>Jane Doe</h4>
+            <br />
+            <hr class="w3-clear" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button
+              type="button"
+              class="w3-button w3-theme-d1 w3-margin-bottom"
+            >
+              <i class="bi bi-thumbs-up"></i>  Like
+            </button>
+            <button
+              type="button"
+              class="w3-button w3-theme-d2 w3-margin-bottom"
+            >
+              <i class="bi bi-comment"></i>  Comment
+            </button>
+          </div>
+
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br />
+            <img
+              src="/w3images/avatar6.png"
+              alt="Avatar"
+              class="w3-left w3-circle w3-margin-right"
+              style="width: 60px"
+            />
+            <span class="w3-right w3-opacity">32 min</span>
+            <h4>Angie Jane</h4>
+            <br />
+            <hr class="w3-clear" />
+            <p>Have you seen this?</p>
+            <img
+              src="/w3images/nature.jpg"
+              style="width: 100%"
+              class="w3-margin-bottom"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button
+              type="button"
+              class="w3-button w3-theme-d1 w3-margin-bottom"
+            >
+              <i class="bi bi-thumbs-up"></i>  Like
+            </button>
+            <button
+              type="button"
+              class="w3-button w3-theme-d2 w3-margin-bottom"
+            >
+              <i class="bi bi-comment"></i>  Comment
+            </button>
+          </div>
+
+          <!-- End Middle Column -->
+        </div>
+
+        <!-- Right Column -->
+        <div class="w3-col m3">
+          <div class="w3-card w3-round w3-white w3-center">
+            <div class="w3-padding-16 w3-container">
+              <h4 class="h4">User Dashboard</h4>
+              <div class="w3-left left">
+                <li>Name : Ghs Julian</li>
+                <li>Email : ghsjulian@gmail.com</li>
+                <li>Phone : +88046377465</li>
+                <li>Address : Rongpur , IT-543</li>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="w3-card w3-round w3-white w3-center">
+            <div class="w3-container">
+              <p>Friend Request</p>
+              <img
+                src="/w3images/avatar6.png"
+                alt="Avatar"
+                style="width: 50%"
+              /><br />
+              <span>Jane Doe</span>
+              <div class="w3-row w3-opacity">
+                <div class="w3-half">
+                  <button
+                    class="w3-button w3-block w3-green w3-section"
+                    title="Accept"
+                  >
+                    <i class="bi bi-check"></i>
+                  </button>
+                </div>
+                <div class="w3-half">
+                  <button
+                    class="w3-button w3-block w3-red w3-section"
+                    title="Decline"
+                  >
+                    <i class="bi bi-remove"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+            <p>ADS</p>
+          </div>
+          <br />
+
+          <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+            <p><i class="bi bi-bug w3-xxlarge"></i></p>
+          </div>
+
+          <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
+    </div>
+    <div class="w3-footer w3-center">
+      <p>Developed By : Ghs Julian</p>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
